@@ -10,9 +10,7 @@ const {Toxic, Sexuality, Insult, spam} = require('./config.json')
 client.on('ready', () => {
   console.log('I am ready!');
   new WOKCommands(client, {
-    commandsDir: 'commands',
-    messagesPath,
-    showWarns: true
+    commandsDir: 'commands'
   })
 });
 
