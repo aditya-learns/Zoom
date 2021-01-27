@@ -1,3 +1,5 @@
+const Discord = require('discord.js')
+const client = new Discord.Client();
 const Perspective = require('perspective-api-client');
 const perspective = new Perspective({apiKey:"AIzaSyCDnKgR033P5zJscXW9AsACiwqE2rdHyts"});
 async function eval()
@@ -20,3 +22,4 @@ async function eval()
     message.reply(`Please don't spam`);
   }
 }
+module.exports.eval = eval;
