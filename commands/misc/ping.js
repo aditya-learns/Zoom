@@ -1,8 +1,8 @@
 module.exports = {
-    aliases: ['p'],
+    name:'ping',
     description:'Ping',
     category:'misc',
-    callback: ({ message }) => {
+    execute (message) {
       message.reply('pong')
     }
   }

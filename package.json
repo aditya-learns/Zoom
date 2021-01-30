@@ -17,10 +17,20 @@
   },
   "homepage": "https://github.com/aditya-learns/Zoom#readme",
   "dependencies": {
+    "@discordjs/opus": "^0.4.0",
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^3.0.0",
     "axios": "^0.21.1",
+    "botdash.pro": "^1.0.2",
     "discord.js": "^12.5.1",
+    "distube": "^2.8.8",
+    "express": "^4.17.1",
     "lodash": "^4.17.20",
+    "mongoose": "^5.11.13",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
     "perspective-api-client": "^3.1.0",
-    "wokcommands": "^1.2.1"
+    "wokcommands": "^1.2.1",
+    "ytdl": "^1.4.1"
   }
 }
